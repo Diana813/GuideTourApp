@@ -50,30 +50,30 @@ public class PlacesListAdapter extends ArrayAdapter<PlaceOfInterest> {
         }
 
         // Get the {@link AndroidFlavor} object located at this position in the list
-        PlaceOfInterest currentWord = getItem(position);
+        PlaceOfInterest currentPlace = getItem(position);
 
         // Find the TextView in the item.xml layout with the ID version_name
         TextView placeTextView = (TextView) listItemView.findViewById(R.id.place);
         // Get the version name from the current AndroidFlavor object and
         // set this text on the name TextView
-        placeTextView.setText(currentWord.getPlaceName());
+        placeTextView.setText(currentPlace.getPlaceName());
 
         // Find the TextView in the list_item.xml layout with the ID version_number
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.address);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
-        addressTextView.setText(currentWord.getPlaceAddress());
+        addressTextView.setText(currentPlace.getPlaceAddress());
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)
         // so that it can be shown in the ListView
 
-        ImageView imageImageView = (ImageView) listItemView.findViewById(R.id.picture);
-        imageImageView.setImageResource(currentWord.getImageResourcesId());
-        if (currentWord.hasImage()) {
-            imageImageView.setImageResource(currentWord.getImageResourcesId());
-            imageImageView.setVisibility(View.VISIBLE);
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.picture);
+        imageView.setImageResource(currentPlace.getImageResourcesId());
+        if (currentPlace.hasImage()) {
+            imageView.setImageResource(currentPlace.getImageResourcesId());
+            imageView.setVisibility(View.VISIBLE);
         } else {
-            imageImageView.setVisibility(View.GONE);
+            imageView.setVisibility(View.GONE);
         }
         // Set the theme color for the list item
         final View textContainer = listItemView.findViewById(R.id.item);

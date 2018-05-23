@@ -25,7 +25,13 @@
                 android:theme="@style/AppTheme"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".DescriptionActivity"></activity>
+        <activity android:name=".DescriptionActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".BackgroundActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:theme="@style/AppTheme"
+                android:value=".BackgroundActivity" /></activity>
     </application>
 
 </manifest>

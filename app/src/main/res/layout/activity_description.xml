@@ -1,8 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.android.guidetourapp.DescriptionActivity">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/descriptionPlace"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@id/place">
+
+            <ImageView
+                android:id="@+id/placeImage"
+                style="@style/BackgroundImageStyle" />
+
+            <TextView
+                android:id="@+id/placeName"
+                style="@style/TextStyle"
+                android:layout_above="@+id/placeAddress"
+                android:gravity="center"
+                tools:text="Place name"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/placeAddress"
+                style="@style/TextStyle"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                tools:text="Place address"
+                android:textSize="15sp"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:id="@+id/descripton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000"
+                android:orientation="vertical"
+                android:textColor="@color/white"
+                tools:text="Place description"
+                android:padding="16dp"
+                android:textSize="15sp"
+                >
+
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

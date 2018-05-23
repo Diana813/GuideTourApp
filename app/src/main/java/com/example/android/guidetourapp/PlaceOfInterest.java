@@ -1,10 +1,14 @@
 package com.example.android.guidetourapp;
 
+import android.os.Parcelable;
+
+import java.util.ArrayList;
+
 /**
  * Created by diana on 22.05.2018.
  */
 
-public class PlaceOfInterest {
+public class PlaceOfInterest extends ArrayList<Parcelable> {
     private int ImageResourceID = NO_IMAGE_PROVIDED;
     private static final int NO_IMAGE_PROVIDED = -1;
 
@@ -44,6 +48,9 @@ public class PlaceOfInterest {
         ImageResourceID = imageResourceID;
         PlaceName = placeName;
         PlaceAddress = placeAddress;
+    }
+
+    public PlaceOfInterest(Parcelable[] position) {
     }
 
     /**

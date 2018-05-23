@@ -1,11 +1,13 @@
 package com.example.android.guidetourapp;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -43,6 +45,20 @@ public class RestaurantsFragment extends Fragment {
         final ListView listView = (ListView) rootView.findViewById(R.id.list_item);
 
         listView.setAdapter(adapter);
+
+        //This method will be executed when the item is clicked on
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Intent descriptionIntent = new Intent(getActivity(), DescriptionActivity.class);
+
+                // Start the new activity
+                startActivity(descriptionIntent);
+
+            }
+
+        });
 
         return rootView;
     }
