@@ -3,9 +3,9 @@
     <color name="black">#000</color>
     <color name="colorAccent">#FFF</color>
     <color name="white">#FFF</color>
-    <!-- Background color for app -->
-    <color name="background">#FFF7DA</color>
-    <color name="category_nature">#b2ff59</color>
+    <color name="category_restaurants">#DEB887</color>
     <color name="category_entertainment">#FFF7DA</color>
+    <color name="category_nature">#B0E0E6</color>
+    <color name="category_hotels">#808000</color>
 
 </resources>

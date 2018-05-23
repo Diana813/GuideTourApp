@@ -29,18 +29,18 @@ public class HotelsFragment extends Fragment {
 
         //Create an array of words
         final ArrayList<PlaceOfInterest> places = new ArrayList<PlaceOfInterest>();
-        places.add(new PlaceOfInterest(R.drawable.czarny_staw_pod_rysami, "Czarny Staw Pod Rysami", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.granaty, "Granaty", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.maly_koscielec, "Mały Kościelec", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.polana_chocholowska, "Polana Chochołowska", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.dolina_za_mnichem, "Dolina za Mnichem", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.rysy, "Rysy", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.trzydniowianski_wierch, "Trzydniowiański Wierch", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.dolina_pieciu_stawow, "Dolina Pięciu Stawów", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.czerwone_wierchy, "Czerwone Wierchy", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.morskie_oko, "Morskie Oko", "Tatrzański Park Narodowy"));
+        places.add(new PlaceOfInterest(R.drawable.aries_hotel_spa, "Aries Hotel & Spa", "Zaruskiego 5, Zakopane"));
+        places.add(new PlaceOfInterest(R.drawable.art_and_spa, "Art & Spa", "Kościuszki 18, Zakopane"));
+        places.add(new PlaceOfInterest(R.drawable.tatra_chalet, "Tatra Chalet", "Bogdańskiego 5, Zakopane"));
+        places.add(new PlaceOfInterest(R.drawable.villa_miodula, "Villa Miodula", "Mocarni 17, Kościelisko"));
+        places.add(new PlaceOfInterest(R.drawable.gorska_osada, "Górska Osada", "Kośne Hamry, Poronin"));
+        places.add(new PlaceOfInterest(R.drawable.osada_harenda, "Osada Harenda", "Harenda 28A, Zakopane"));
+        places.add(new PlaceOfInterest(R.drawable.grand_hotel_stamary, "Grand Hotel Stamary", "Kościuszki 19, Zakopane"));
+        places.add(new PlaceOfInterest(R.drawable.grand_hotel_nosalowy_dwor, "Grand Hotel Nosalowy Dwór", "Balzera 21D, Zakopane"));
+        places.add(new PlaceOfInterest(R.drawable.rezydencja_dwa_nosalowy_dwor, "Rezydencja II Nosalowy Dwór", "Balzera 21D, Zakopane"));
+        places.add(new PlaceOfInterest(R.drawable.biala_owca, "Biała Owca", "Bogdańskiego 8, Zakopane"));
 
-        PlacesListAdapter adapter = new PlacesListAdapter(getActivity(), places, R.color.category_nature);
+        PlacesListAdapter adapter = new PlacesListAdapter(getActivity(), places, R.color.category_hotels);
 
         final ListView listView = (ListView) rootView.findViewById(R.id.list_item);
 

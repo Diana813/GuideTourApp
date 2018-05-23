@@ -27,18 +27,18 @@ public class RestaurantsFragment extends Fragment {
 
         //Create an array of words
         final ArrayList<PlaceOfInterest> places = new ArrayList<PlaceOfInterest>();
-        places.add(new PlaceOfInterest(R.drawable.czarny_staw_pod_rysami, "Czarny Staw Pod Rysami", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.granaty, "Granaty", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.maly_koscielec, "Mały Kościelec", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.polana_chocholowska, "Polana Chochołowska", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.dolina_za_mnichem, "Dolina za Mnichem", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.rysy, "Rysy", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.trzydniowianski_wierch, "Trzydniowiański Wierch", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.dolina_pieciu_stawow, "Dolina Pięciu Stawów", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.czerwone_wierchy, "Czerwone Wierchy", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.morskie_oko, "Morskie Oko", "Tatrzański Park Narodowy"));
+        places.add(new PlaceOfInterest(R.drawable.czarci_jar, "Czarci Jar", "Polish cuisine"));
+        places.add(new PlaceOfInterest(R.drawable.dobra_kasza_nasza, "Dobra Kasza Nasza", "Groats in a thousand ways"));
+        places.add(new PlaceOfInterest(R.drawable.goralski_dworek, "Góralski dworek", "Polish cuisine"));
+        places.add(new PlaceOfInterest(R.drawable.kuchenne_rewolucje, "Obrochtówka", "Polish cuisine"));
+        places.add(new PlaceOfInterest(R.drawable.adamo, "Adamo", "Italian cuisine"));
+        places.add(new PlaceOfInterest(R.drawable.cristina_ristorante, "Cristina Ristorante", "Italian cuisine"));
+        places.add(new PlaceOfInterest(R.drawable.namaste, "Namaste", "Indian cuisine"));
+        places.add(new PlaceOfInterest(R.drawable.pstrag_zakopane, "Pstrąg Górski", "Fresh fish"));
+        places.add(new PlaceOfInterest(R.drawable.casa_mia, "Casa mia", "Mediterranean cuisine, polish cuisine, vegetarian, vegan"));
+        places.add(new PlaceOfInterest(R.drawable.bakowo_zohylina_niznio, "Bakowo Zohylina Niznio", "Polish cuisine, vegetarian"));
 
-        PlacesListAdapter adapter = new PlacesListAdapter(getActivity(), places, R.color.category_nature);
+        PlacesListAdapter adapter = new PlacesListAdapter(getActivity(), places, R.color.category_restaurants);
 
         final ListView listView = (ListView) rootView.findViewById(R.id.list_item);
 

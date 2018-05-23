@@ -36,7 +36,7 @@ public class EntertainmentFragment extends Fragment {
         places.add(new PlaceOfInterest(R.drawable.rower, "Bike", "Tatrzański Park Narodowy"));
         places.add(new PlaceOfInterest(R.drawable.termy, "Therms", "Bukowina Tatrzańska"));
         places.add(new PlaceOfInterest(R.drawable.wspinaczka, "Climbing", "Tatrzański Park Narodowy"));
-        places.add(new PlaceOfInterest(R.drawable.dyskoteka, "Disco", "Kolorowa, Zakopane"));
+        places.add(new PlaceOfInterest(R.drawable.dysko, "Disco", "Kolorowa, Zakopane"));
         places.add(new PlaceOfInterest(R.drawable.medytacja, "Relax with friends", "Tatrzański Park Narodowy"));
         places.add(new PlaceOfInterest(R.drawable.dzika_przyroda, "Watching wildlife", "Tatrzański Park Narodowy"));
 
