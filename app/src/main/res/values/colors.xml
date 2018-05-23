@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="colorAccent">#FFF</color>
+    <color name="white">#FFF</color>
+    <!-- Background color for app -->
+    <color name="background">#FFF7DA</color>
+    <color name="category_nature">#b2ff59</color>
+    <color name="category_entertainment">#FFF7DA</color>
+
+</resources>

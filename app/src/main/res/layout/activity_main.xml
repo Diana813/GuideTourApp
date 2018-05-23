@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.guidetourapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zakopane" />
+
+    <TextView
+        android:id="@+id/town"
+        style="@style/TextViewTownNameStyle"
+        android:text="@string/town_name" />
+
+    <TextView
+        style="@style/TextViewTownNameStyle"
+        android:layout_below="@+id/town"
+        android:text="@string/country"
+        android:textSize="15sp" />
+
+    <TextView
+        style="@style/TextViewHomeStyle"
+        android:layout_alignParentBottom="true"
+        android:text="@string/start"
+        android:id="@+id/start"/>
+
+</RelativeLayout>
+</layout>
