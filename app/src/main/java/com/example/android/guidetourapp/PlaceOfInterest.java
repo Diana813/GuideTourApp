@@ -31,9 +31,8 @@ public class PlaceOfInterest extends ArrayList<Parcelable> {
     /**
      * Create a new PlaceOfInterest object.
      *
-     * @param placeName is the word in a language that the user is already familiar with
-     *                           (such as English)
-     * @param placeAddress   is the word in the Miwok language
+     * @param placeName is the name of the place
+     * @param placeAddress   is the address of the place
      */
     public PlaceOfInterest(int placeName, int placeAddress,int placeDescription) {
         PlaceName = placeName;
@@ -45,10 +44,9 @@ public class PlaceOfInterest extends ArrayList<Parcelable> {
     /**
      * Create a new PlaceOfInterest object.
      *
-     * @param placeName is the word in a language that the user is already familiar with
-     *                           (such as English)
-     * @param placeAddress   is the word in the Miwok language
-     * @param imageResourceID    is an image associated to the word
+     * @param placeName is the name of the place
+     * @param placeAddress   is the address of the place
+     * @param imageResourceID    is an image associated to the place
      */
     public PlaceOfInterest(int imageResourceID, int placeName, int placeAddress, int placeDescription) {
 
@@ -83,7 +81,7 @@ public class PlaceOfInterest extends ArrayList<Parcelable> {
     }
 
     /**
-     * Get the image of the word.
+     * Get the image of the place.
      */
     public int getImageResourcesId() {
         return ImageResourceID;
