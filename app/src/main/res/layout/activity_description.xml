@@ -21,7 +21,7 @@
 
             <TextView
                 android:id="@+id/placeName"
-                style="@style/TextStyle"
+                style="@style/TextStyleDescriptionTitles"
                 android:layout_above="@+id/placeAddress"
                 android:gravity="center"
                 tools:text="Place name"
@@ -29,7 +29,7 @@
 
             <TextView
                 android:id="@+id/placeAddress"
-                style="@style/TextStyle"
+                style="@style/TextStyleDescriptionTitles"
                 android:layout_alignParentBottom="true"
                 android:gravity="center"
                 tools:text="Place address"
@@ -53,7 +53,8 @@
                 android:textColor="@color/white"
                 tools:text="Place description"
                 android:padding="16dp"
-                android:textSize="15sp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
                 >
 
             </TextView>

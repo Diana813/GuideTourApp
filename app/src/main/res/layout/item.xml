@@ -22,13 +22,13 @@
 
         <TextView
             android:id="@+id/place"
-            style="@style/TextStyle"
+            style="@style/TextStyleItems"
             android:textStyle="bold"
             tools:text="Place" />
 
         <TextView
             android:id="@+id/address"
-            style="@style/TextStyle"
+            style="@style/TextStyleItems"
             tools:text="adress"
             android:textSize="10sp"/>
     </LinearLayout>

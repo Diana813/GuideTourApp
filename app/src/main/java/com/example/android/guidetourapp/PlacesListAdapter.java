@@ -64,6 +64,7 @@ public class PlacesListAdapter extends ArrayAdapter<PlaceOfInterest> {
         // set this text on the number TextView
         addressTextView.setText(currentPlace.getPlaceAddress());
 
+
         // Return the whole list item layout (containing 2 TextViews and an ImageView)
         // so that it can be shown in the ListView
 

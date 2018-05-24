@@ -16,7 +16,221 @@
     <!-- Category name for the hotels category [CHAR LIMIT=20] -->
     <string name="category_hotels">Hotels</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Category nature items -->
+    <string name="czarny_staw">Czarny Staw Pod Rysami</string>
+    <string name="granaty">Granaty</string>
+    <string name="koscielec">Mały Kościelec</string>
+    <string name="chocholowska">Polana Chochołowska</string>
+    <string name="za_mnichem">Dolina za Mnichem</string>
+    <string name="rysy">Rysy</string>
+    <string name="trzydniowianski">Trzydniowiański Wierch</string>
+    <string name="piec_stawow">Dolina Pięciu Stawów</string>
+    <string name="czerwone">Czerwone Wierchy</string>
+    <string name="morskie">Morskie Oko</string>
+     <string name="TPN">Tatrzański Park Narodowy</string>
+
+    <!-- Category entertainment items -->
+    <string name="trekking">Trekking</string>
+    <string name="salt">SPA</string>
+    <string name="ski">Ski or Snowboard</string>
+    <string name="photos">Photography</string>
+    <string name="bike">Bike</string>
+    <string name="therms">Therms</string>
+    <string name="climbing">Climbing</string>
+    <string name="disco">Disco</string>
+    <string name="maze">Maze</string>
+    <string name="wildlife">Watching wildlife</string>
+    <string name="spa">Art&amp;Spa Hotel, Zakopane</string>
+    <string name="Lipki">Ski lift Lipki</string>
+    <string name="Bukowina">Bukowina Tatrzańska</string>
+    <string name="Kolorowa">Kolorowa, Zakopane</string>
+    <string name="labirynt">Piłusudskiego 38, Zakopane</string>
+
+    <!-- Category hotels items -->
+    <string name="Aries">Aries Hotel &amp; Spa</string>
+    <string name="Art">Art &amp; Spa</string>
+    <string name="Tatra">Tatra Chalet</string>
+    <string name="villa">Villa Miodula</string>
+    <string name="gorska">Górska Osada</string>
+    <string name="harenda">Osada Harenda</string>
+    <string name="stamary">Grand Hotel Stamary</string>
+    <string name="nosalowy">Grand Hotel Nosalowy Dwór</string>
+    <string name="nosalowy_dwa">Rezydencja II Nosalowy Dwór</string>
+    <string name="owca">Biała Owca</string>
+    <string name="aries">Zaruskiego 5, Zakopane</string>
+    <string name="art">Kościuszki 18, Zakopane</string>
+    <string name="tatra">Bogdańskiego 5, Zakopane</string>
+    <string name="miodula">Mocarni 17, Kościelisko</string>
+    <string name="osada">Kośne Hamry, Poronin</string>
+    <string name="Harenda">Harenda 28A, Zakopane</string>
+    <string name="Stamary">Kościuszki 19, Zakopane</string>
+    <string name="Nosalowy">Balzera 21D, Zakopane</string>
+    <string name="Owca">Bogdańskiego 8, Zakopane</string>
+
+    <!-- Category restaurants items -->
+    <string name="czarci">Czarci Jar</string>
+    <string name="kasza">Dobra Kasza Nasza</string>
+    <string name="dworek">Góralski dworek</string>
+    <string name="obrochtowka">Obrochtówka</string>
+    <string name="adamo">Adamo</string>
+    <string name="cristina">Cristina Ristorante</string>
+    <string name="namaste">Namaste</string>
+    <string name="pstrąg">Pstrąg Górski</string>
+    <string name="casa">Casa mia</string>
+    <string name="bakowo">Bakowo Zohylina Niznio</string>
+    <string name="Polish">Polish cuisine</string>
+    <string name="Italian">Italian cuisine</string>
+    <string name="groats">Groats in a thousand ways</string>
+    <string name="Indian">Indian cuisine</string>
+    <string name="fish">Fresh fish</string>
+    <string name="Mediterranean">Mediterranean cuisine, polish cuisine, vegetarian, vegan</string>
+    <string name="Veg">Polish cuisine, vegetarian</string>
+
+    <!-- Category nature descriptions -->
+    <string name="czarny">Surrounded by the highest peaks in Poland, watches the sun only for a few months a year,
+        at best only for a few hours a day. The water is reaching the bottom after 76 meters here and has an unusual,
+        aquamarine color which contrasts wonderfully with the dark mountain walls. A gentle path snakes along
+        the shore, which after several hundred meters of approach leads into the world of rock climbing to
+        the highest point in the country. This is how it is here. Czarny Staw near Rysy.</string>
+    <string name="granat">Grenades are three: Extreme, Intermediate and Zadnia,
+        and each of them offers a slightly different landscape, but one combines them:
+        the panorama has an extremely high mountain, full of horror and majesty character.
+        Relatively high altitude (over 2200 m) allows you to admire the extensive panorama
+        of the Tatra Mountains, which only on the southern Slovak side is limited by
+        the high walls of Kozi Wierch.</string>
+    <string name="kosciel">Kościelec is called the Polish Matterhorn, and it\'s best to photograph from
+        Little Kościelec. This nearby and extremely attractive place is a mine of motifs, with one leading
+        accent - the Kościelec pyramid. Even the entrance to the Karb Pass area allows you to feel the high
+        mountain climate.</string>
+    <string name="chochol">A gentle slope with 14 wooden shacks, over which you can see Wołowiec
+        and Kominiarski Wierch, is one of the most charming places outside the peak parts of the Tatras.
+        A special charm is gained after the season, or early in the morning, when there are no people and
+        it is covered with mists backlit by the morning sunrays.</string>
+    <string name="mnich">The valley behind the Monk is probably one of the most underestimated nooks and
+        crannies of the Polish High Tatras, whereas in the place where from the yellow-marked trail leading to
+        Szpiglasowy Wierch reflects the red trail to the Chałubińskie Gate, there is the most spectacular
+        viewpoint on the Mięguszowieckie Peaks and their surroundings. Like this, they do not look from any
+        other place accessible by the trail.</string>
+    <string name="rys">Rysy is a unique mountain for many reasons. The most distant peak of the Polish Tatras,
+        the highest available trail in the entire Tatra Mountains, also the highest peak of Poland (2499 m above sea
+        level), and the panorama is unparalleled in the entire Carpathians. Thanks to a great location, on nice
+        days the views reach a hundred kilometers. From Rysy, you can also see all important Tatra peaks, both on
+        the Polish and Slovak side.</string>
+    <string name="trzyd">One look from Trzydniowiański Wierch allows you to get to know almost the whole band.
+        From here you can see not only the closest area from Kominiarski Wierch through Bystra, Starorobociański,
+        Jakubina, Wołowiec, to Bobrowiec, but also Czerwone Wierchy, Giewont, Rysy, Mięguszowiecki Szczyt and
+        Krivan.</string>
+    <string name="piec">Dolina Pięciu Stawów is considered one of the most beautiful in Poland.
+        On the blue trail in the Świstowa Czuba district, it is worth removing the camera from the case,
+        because we have in front of us one of the best views of this valley. Of particular interest is the
+        moment when shining panes of three lakes emerge from behind the Stawian Walls, surrounded by low peaks.</string>
+    <string name="wierchy">Czerwone Wierchy is a mountain range consisting of four peaks, located between
+        the races of the High Tatras, and limestone uplands of the Western Tatras. These hills are almost
+        entirely covered with an unusual species of grass, which in the autumn begins to take a reddish color.
+        The Czerwone Wierchy peaks illuminated by the setting sun appear then phenomenally.</string>
+    <string name="morskie_oko">Famous in Poland and abroad Morskie Oko is the largest lake located in the
+        Polish Tatras. This is one of the few lakes where fish, in particular trout, are found naturally.
+        Breathtaking views and three red hiking trails that can be combined into one are just some of the
+        attractions. On the route of trails leading to Morskie Oko you can see Wodogrzmoty Mickiewicza,
+        a beautiful mountain waterfall.</string>
+
+    <!-- Category restaurants descriptions -->
+    <string name="czart">A tavern away from Krupówki, but it is worth spending a kilometer of walking.
+        The decor is charming, regional. Highlander live music. Regional dishes exquisite: dumplings, moskal, ribs.
+        Everything fresh, exquisitely served, large portions - will satisfy everyone.</string>
+    <string name="kasz">Dishes are not expensive here (the cost of a meal is around PLN 20), and the size of
+        the dishes served is large. The place is also friendly for vegans and vegetarians, and you can order
+        half portions. You can also eat local delicacies (eg kwaśnica) as well as the standards of Polish
+        cuisine (eg tomato soup). Many people recommend pearl barley with chicken and olives, as well as beef.</string>
+    <string name="dwor">Menu created so that every gourmet will find something for themselves. The dishes are
+        inspired by traditional Polish and regional cuisine.</string>
+    <string name="obroch">A place with a homely atmosphere and delicious food. The cozy inn.
+        Interesting also because of the television program "Kitchen revolutions".</string>
+    <string name="adam">Excellent food. Light, aromatic and nicely served. Good coffee. The decor is very pleasant.</string>
+    <string name="cristi">Pizzas served in the premises and very well evaluated by customers are prepared
+        by a native Sicilian. In addition to them, typical Italian appetizers and seafood are served in Cristina.
+        The best Tiramisu in town.</string>
+    <string name="namas">If you\'ve always dreamed of eating like an Indian at home, you\'ve come to such a place.
+        Please note, this is not a typical restaurant, there are only two tables in the middle, the menu
+        is probably changing from the availability of products, but most importantly the food is delicious,
+        cooked in front of your eyes.</string>
+    <string name="pstr">A cult place. Being in Zakopane you have to come and eat trout - the choice is huge.
+        A climatic place for both quick lunch and long dinners.</string>
+    <string name="cas">According to customers, dishes here are not only tasty, but also beautifully served.
+        A lot of people recommend white borscht and duck, as well as fish (for example, trout steak or
+        salmon with black rice and orange sauce). There are also options for vegans and vegetarians.</string>
+    <string name="bak">The soups are a hit - especially kwaśnica - for which you will pay about 10 zlotys.
+        Eat here also tasty fish or mutton with additives at a price of about 20-30 PLN per person.</string>
+
+    <!-- Category entertainment descriptions -->
+    <string name="trek">The Tatra National Park is full of wonderful hiking trails, difficult
+        and easy, short and long. All of them abound in breathtaking views.</string>
+    <string name="sal">Zakopane, for tourists tired of mountain trips, offers rest in numerous,
+        luxuriously equipped spa centers.</string>
+    <string name="snow">There are several ski lifts around Zakopane. Perfect skiing conditions can
+        be found both by professionals and amateurs.</string>
+    <string name="photo">The Tatra National Park is a paradise for photographers. Thanks to
+        the variability of the capricious Tatra weather, you can snap interesting photos without
+        ending even in popular places. But there is still much to discover in Polish Tatras.</string>
+    <string name="cycle">The Tatra National Park offers many wonderful bicycle paths.</string>
+    <string name="therm">Surrounded by the National Park, you can relax in the thermal pools.
+        Water extracted from the depth of 2.4 km from the north-west slope of the Wysoki Wierch mountain is
+        warm, so you can enjoy the bath even in winter. The water park offers many attractions, such as a
+        jacuzzi, massage, saunas and much more.</string>
+    <string name="climb">Mountain climbing in Zakopane is an attraction dedicated to
+        mountain enthusiasts and enthusiasts of active recreation. Certainly, those who have
+        already tried their hand at climbing the mountain rocks admit that it is accompanied by an
+        unforgettable adrenaline crowned with the joy of the summit. Mountain climbing is not only an
+        amazing experience, but also breathtaking views and mountain landscapes that can be admired from high rocks.</string>
+    <string name="club">In the evenings, Zakopane offers discos and dancing parties,
+        some with live musics. In the summer season the commune organizes many concerts.</string>
+    <string name="lab">The snow maze in Zakopane is great fun for families. Fortunately,
+        the guards help out the lost tourists ...</string>
+    <string name="wild">Just kidding! It\'s dangerous...</string>
+
+    <!-- Category hotels descriptions -->
+    <string name="Arie">When arranging and furnishing all rooms and suites, care was taken for their
+        functionality and elegant style. Hand-decorated ceilings, mosaic wallpapers, and charming Zakopane
+        views make the stay at Hotel Aries remain in the memory of the guests for a long time.</string>
+    <string name="Ar">Hotel ART &amp; SPA is a four-star hotel located in the very center of Zakopane.
+        Unique interiors and professional service guarantee a good rest in the mountains. The hotel offers
+        spacious and comfortably equipped rooms, a modern Spa &amp; Wellness area, air-conditioned conference rooms,
+        a restaurant serving European cuisine and a cozy café.</string>
+    <string name="Tatr">Zakopiański Tatra Chalet is located close to Księży forest, Strążyska valley and the
+        picturesque route "Droga pod Reglami". The center of Zakopane is just a 20-minute walk away.
+        A perfect place for a romantic trip or family vacation. The relax zone with a sauna and a covered
+        outdoor jacuzzi will also contribute to the rest of the body and soul.</string>
+    <string name="vill">Villa Miodula, with panoramic views of the Tatra Mountains, is located
+        on the southern slope of Gubałówka, close to the cable car and
+        the ski lift. It offers traditionally furnished rooms and apartments. Villa Miodula was designed
+        in a style typical of Zakopane architecture from the turn of the 19th and 20th centuries. Guests
+        can relax by the fireplace or in the relaxation room.</string>
+    <string name="gorsk">Accommodation in design wooden houses in a traditional
+        style with modern elements, a fireplace and a private terrace.</string>
+    <string name="harend">Osada Harenda is located in Zakopane, right next to the Harenda ski center,
+        where there is an ice rink, ski lifts, chair lift and ski slopes. The chalet has a balcony,
+        2 bedrooms and a living room with a fireplace. The living room is connected to the dining
+        room and kitchenette. The cottage has 2 bathrooms.</string>
+    <string name="stamar">Grand Hotel Stamary is located in Zakopane and offers elegantly equipped rooms,
+        a spa, a wellness center and a swimming pool.</string>
+    <string name="nosalow">Hotel Nosalowy Dwór is located in a quiet part of Zakopane, at the foot of the
+        Nosal Mountain. The rooms are elegantly furnished in a classic style. They all have a private
+        bathroom with a bath or shower. Guests of the Nosalowy Dwór have access to a spa and wellness
+        center with a hot tub and a sauna.</string>
+    <string name="nosalowy_dw">Rezydencja II Nosalowy Dwór is located in Zakopane. It offers a spa center,
+        a ski storage room, a sauna, a fitness center and a restaurant. Rooms include a private bathroom
+        fitted with a bath or shower. Ski equipment and bicycles can be rented on site. The area is very
+        popular among skiing enthusiasts.</string>
+    <string name="owc">The White Sheep is a place that was created in harmony with the Podhale landscape,
+        and at the same time a modern place, providing full comfort of rest. Willa Biała Owca is located at
+        the foot of the Tatra Mountains right next to Droga pod Reglami and the entrance to the Strążyska Valley.
+        Amazing views that extend beyond the windows will satisfy the most demanding Guests. The interiors
+        of the White Sheep are a combination of modern design and elements of the highlander style.</string>
+
+
+
+
+
+
 
 </resources>

@@ -29,18 +29,18 @@ public class HotelsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
-        //Create an array of words
+        //Create an array of places to visit
         final ArrayList<PlaceOfInterest> places = new ArrayList<PlaceOfInterest>();
-        places.add(new PlaceOfInterest(R.drawable.aries_hotel_spa, "Aries Hotel & Spa", "Zaruskiego 5, Zakopane"));
-        places.add(new PlaceOfInterest(R.drawable.art_and_spa, "Art & Spa", "Kościuszki 18, Zakopane"));
-        places.add(new PlaceOfInterest(R.drawable.tatra_chalet, "Tatra Chalet", "Bogdańskiego 5, Zakopane"));
-        places.add(new PlaceOfInterest(R.drawable.villa_miodula, "Villa Miodula", "Mocarni 17, Kościelisko"));
-        places.add(new PlaceOfInterest(R.drawable.gorska_osada, "Górska Osada", "Kośne Hamry, Poronin"));
-        places.add(new PlaceOfInterest(R.drawable.osada_harenda, "Osada Harenda", "Harenda 28A, Zakopane"));
-        places.add(new PlaceOfInterest(R.drawable.grand_hotel_stamary, "Grand Hotel Stamary", "Kościuszki 19, Zakopane"));
-        places.add(new PlaceOfInterest(R.drawable.grand_hotel_nosalowy_dwor, "Grand Hotel Nosalowy Dwór", "Balzera 21D, Zakopane"));
-        places.add(new PlaceOfInterest(R.drawable.rezydencja_dwa_nosalowy_dwor, "Rezydencja II Nosalowy Dwór", "Balzera 21D, Zakopane"));
-        places.add(new PlaceOfInterest(R.drawable.biala_owca, "Biała Owca", "Bogdańskiego 8, Zakopane"));
+        places.add(new PlaceOfInterest(R.drawable.aries_hotel_spa, R.string.Aries, R.string.aries, R.string.Arie));
+        places.add(new PlaceOfInterest(R.drawable.art_and_spa, R.string.Art, R.string.art, R.string.Ar));
+        places.add(new PlaceOfInterest(R.drawable.tatra_chalet, R.string.Tatra, R.string.tatra, R.string.Tatr));
+        places.add(new PlaceOfInterest(R.drawable.villa_miodula, R.string.villa, R.string.miodula, R.string.vill));
+        places.add(new PlaceOfInterest(R.drawable.gorska_osada, R.string.gorska, R.string.osada, R.string.gorsk));
+        places.add(new PlaceOfInterest(R.drawable.osada_harenda, R.string.harenda, R.string.Harenda, R.string.harend));
+        places.add(new PlaceOfInterest(R.drawable.grand_hotel_stamary, R.string.stamary, R.string.Stamary, R.string.stamar));
+        places.add(new PlaceOfInterest(R.drawable.grand_hotel_nosalowy_dwor, R.string.nosalowy, R.string.Nosalowy, R.string.nosalow));
+        places.add(new PlaceOfInterest(R.drawable.rezydencja_dwa_nosalowy_dwor, R.string.nosalowy_dwa, R.string.Nosalowy, R.string.nosalowy_dw));
+        places.add(new PlaceOfInterest(R.drawable.biala_owca, R.string.owca, R.string.Owca, R.string.owc));
 
         PlacesListAdapter adapter = new PlacesListAdapter(getActivity(), places, R.color.category_hotels);
 
@@ -54,12 +54,13 @@ public class HotelsFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 Intent descriptionIntent = new Intent(getActivity(), DescriptionActivity.class);
-
+                descriptionIntent.putExtra("placeName", places.get(position).getPlaceName());
+                descriptionIntent.putExtra("placeAddress", places.get(position).getPlaceAddress());
+                descriptionIntent.putExtra("image", places.get(position).getImageResourcesId());
+                descriptionIntent.putExtra("placeDescription", places.get(position).getPlaceDescription());
                 // Start the new activity
                 startActivity(descriptionIntent);
-
             }
-
         });
         return rootView;
     }

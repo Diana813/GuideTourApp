@@ -14,26 +14,32 @@ public class DescriptionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_description);
 
         Intent descriptionIntent = getIntent();
-        int intImage = descriptionIntent.getIntExtra("intImage", 0);
-        String PlaceName = descriptionIntent.getStringExtra("name");
-        String PlaceAddress = descriptionIntent.getStringExtra("address");
+        int PlaceName = descriptionIntent.getExtras().getInt("placeName");
+        int PlaceAddress = descriptionIntent.getExtras().getInt("placeAddress");
+        int intImage = descriptionIntent.getExtras().getInt("image", 0);
+        int PlaceDescription = descriptionIntent.getExtras().getInt("placeDescription");
 
         displayImage(intImage);
         displayPlaceName(PlaceName);
         displayPlaceAddress(PlaceAddress);
+        displayPlaceDescription(PlaceDescription);
     }
 
     public void displayImage(int image) {
         ImageView imageView = (ImageView) findViewById(R.id.placeImage);
         imageView.setImageResource(image);
     }
-    public void displayPlaceName(String name) {
+    public void displayPlaceName(int name) {
         TextView textView = (TextView) findViewById(R.id.placeName);
         textView.setText(name);
     }
-    public void displayPlaceAddress(String name) {
+    public void displayPlaceAddress(int name) {
         TextView textView = (TextView) findViewById(R.id.placeAddress);
         textView.setText(name);
+    }
+    public void displayPlaceDescription(int description) {
+        TextView textView = (TextView) findViewById(R.id.descripton);
+        textView.setText(description);
     }
 }
 

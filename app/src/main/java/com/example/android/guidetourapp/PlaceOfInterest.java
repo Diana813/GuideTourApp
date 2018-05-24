@@ -15,12 +15,17 @@ public class PlaceOfInterest extends ArrayList<Parcelable> {
     /**
      * Name of the place we can visit
      */
-    private String PlaceName;
+    private int PlaceName;
 
     /**
      * The address of the place we can visit
      */
-    private String PlaceAddress;
+    private int PlaceAddress;
+
+    /**
+     * The description of the place we can visit
+     */
+    private int PlaceDescription;
 
 
     /**
@@ -30,9 +35,11 @@ public class PlaceOfInterest extends ArrayList<Parcelable> {
      *                           (such as English)
      * @param placeAddress   is the word in the Miwok language
      */
-    public PlaceOfInterest(String placeName, String placeAddress) {
+    public PlaceOfInterest(int placeName, int placeAddress,int placeDescription) {
         PlaceName = placeName;
         PlaceAddress = placeAddress;
+        PlaceDescription = placeDescription;
+
     }
 
     /**
@@ -43,30 +50,37 @@ public class PlaceOfInterest extends ArrayList<Parcelable> {
      * @param placeAddress   is the word in the Miwok language
      * @param imageResourceID    is an image associated to the word
      */
-    public PlaceOfInterest(int imageResourceID, String placeName, String placeAddress) {
+    public PlaceOfInterest(int imageResourceID, int placeName, int placeAddress, int placeDescription) {
 
         ImageResourceID = imageResourceID;
         PlaceName = placeName;
         PlaceAddress = placeAddress;
+        PlaceDescription = placeDescription;
     }
 
-    public PlaceOfInterest(Parcelable[] position) {
-    }
 
     /**
      * Get the name of the place
+     *
      */
-    public String getPlaceName() {
+    public int getPlaceName() {
         return PlaceName;
     }
 
     /**
      * Get the address of the place.
      */
-    public String getPlaceAddress() {
+    public int getPlaceAddress() {
         return PlaceAddress;
     }
 
+
+    /**
+     * Get the description of the place.
+     */
+    public int getPlaceDescription() {
+        return PlaceDescription;
+    }
 
     /**
      * Get the image of the word.
